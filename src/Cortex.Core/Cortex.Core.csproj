@@ -20,7 +20,7 @@
 		<Version>0.0.1-preview</Version>
 		<PackageLicenseFile>license.md</PackageLicenseFile>
 		<PackageIcon>cortex.png</PackageIcon>
-		<PackageId>Buildersoft.Andy.X.Client</PackageId>
+		<PackageId>Cortex.Core</PackageId>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<IsPublishable>True</IsPublishable>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>

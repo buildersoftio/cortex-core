@@ -20,17 +20,13 @@
 		<Version>0.0.1-preview</Version>
 		<PackageLicenseFile>license.md</PackageLicenseFile>
 		<PackageIcon>cortex.png</PackageIcon>
-		<PackageId>Buildersoft.Andy.X.Client</PackageId>
+		<PackageId>Cortex.Core.AndyX</PackageId>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<IsPublishable>True</IsPublishable>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<RepositoryType></RepositoryType>
 		
 	</PropertyGroup>
-
-	<ItemGroup>
-		<PackageReference Include="Buildersoft.Andy.X.Client" Version="2.1.3-preview" />
-	</ItemGroup>
 
 	<ItemGroup>
 		<ProjectReference Include="..\Cortex.Core\Cortex.Core.csproj" />
@@ -45,6 +41,10 @@
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Buildersoft.Andy.X.Client" Version="2.1.3-preview" />
 	</ItemGroup>
 
 </Project>
