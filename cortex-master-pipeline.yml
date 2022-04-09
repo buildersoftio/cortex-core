@@ -50,7 +50,7 @@ steps:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
     nuGetFeedType: 'internal'
-    publishVstsFeed: 'bce42dc5-ec18-4377-871d-908f560bbff6'
+    publishVstsFeed: 'ffa07f70-369b-45ce-aaf6-2e2cc8e953a8'
 
 # Push to NuGet
 - task: DotNetCoreCLI@2
