@@ -43,13 +43,16 @@ steps:
     packagesToPack: '**/*.csproj'
     versioningScheme: 'byEnvVar'
     versionEnvVar: 'NugetVersion'
+
+# Push to internal Buildersoft Artifact
 - task: DotNetCoreCLI@2
   inputs:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
     nuGetFeedType: 'internal'
-    publishVstsFeed: '0ee2daad-b83d-4603-8c77-2baf1867b3f2/8d6074e8-8e85-4ae7-95d2-5553f96777bc'
+    publishVstsFeed: 'bce42dc5-ec18-4377-871d-908f560bbff6'
 
+# Push to NuGet
 - task: DotNetCoreCLI@2
   inputs:
     command: 'push'
