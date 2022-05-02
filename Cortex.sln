@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cortex.Core", "src\Cortex.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cortex.Core.AndyX", "src\Cortex.Core.AndyX\Cortex.Core.AndyX.csproj", "{31AFE02E-CC16-4AF0-B706-93B57CFC321A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cortex.Collections", "Cortex.Collections\Cortex.Collections.csproj", "{9D7F831C-E10C-43F0-9179-4DBB4038A71B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cortex.Collections", "src\Cortex.Collections\Cortex.Collections.csproj", "{9D7F831C-E10C-43F0-9179-4DBB4038A71B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
