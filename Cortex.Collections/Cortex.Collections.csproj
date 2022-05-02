@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<AssemblyVersion>0.0.1</AssemblyVersion>
+		<FileVersion>0.0.1</FileVersion>
+		<Product>Buildersoft Cortex</Product>
+		<Company>Buildersoft</Company>
+		<Authors>Buildersoft</Authors>
+		<Copyright>Copyright © Buildersoft 2022</Copyright>
+		<Description>
+			Cortex Toolkit is Buildersoft Reactive Library for .NET. Collections Library for ConcurrentPriorityQueues
+		</Description>
+		<RepositoryUrl>https://github.com/buildersoftdev/cortex-core</RepositoryUrl>
+		<PackageTags>reactive andyx eda cqrs priorityqueue queue list</PackageTags>
+
+		<Version>0.0.1-preview</Version>
+		<PackageLicenseFile>license.md</PackageLicenseFile>
+		<PackageIcon>cortex.png</PackageIcon>
+		<PackageId>Cortex.Core.AndyX</PackageId>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<IsPublishable>True</IsPublishable>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<RepositoryType></RepositoryType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="Assets\cortex.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="Assets\license.md">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
